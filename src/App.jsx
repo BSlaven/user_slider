@@ -5,6 +5,11 @@ import people from './data';
 
 function App() {
 
+  const [ myPeople, setPeople ] = useState(people);
+  const [ index, setIndex ] = useState(0);
+
+  
+
   return (
     <div className="App">
       <h3 className='title'>Reviews</h3>
