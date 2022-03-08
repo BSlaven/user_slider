@@ -16,9 +16,15 @@ function App() {
     }
     if(index > lastIndex) {
       setIndex(0);
-    }
-    
+    }  
   }, [index, myPeople])
+
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1);
+    }, 3000)
+    return () => clearInterval(slider);
+  }, [index])
 
   return (
     <section className="section">
