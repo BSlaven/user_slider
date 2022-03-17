@@ -1,6 +1,6 @@
-# Tours App
+# User Slider App
 
-## Simple app to show users in a form of a slider.
+## Simple app to show users in the form of a slider.
 
 ### Inspiration for this app came from FreeCodeCamp's video about 15 react projects by John Smilga.
 
